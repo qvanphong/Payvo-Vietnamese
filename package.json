@@ -19,8 +19,11 @@
     ],
     "urls": [
       "https://dexplorer.ark.io"
-    ]
+    ],
+    "logo": "",
+    "minimumVersion": "1"
   },
+  "keywords": ["translate", "@payvo", "wallet-plugin"],
   "scripts": {
     "prepublishOnly": "yarn build",
     "build": "preconstruct build",
