@@ -1,0 +1,36 @@
+{
+  "name": "vietnamese",
+  "version": "1",
+  "description": "Vietnamese translation for Payvo Wallet",
+  "main": "dist/vietnamese.cjs.js",
+  "author": "qvanphong",
+  "license": "MIT",
+  "private": false,
+  "desktop-wallet": {
+    "title": "My Plugin",
+    "categories": [
+      "gaming"
+    ],
+    "permissions": [
+      "HTTP",
+      "STORE",
+      "LAUNCH",
+      "EVENTS"
+    ],
+    "urls": [
+      "https://dexplorer.ark.io"
+    ]
+  },
+  "scripts": {
+    "prepublishOnly": "yarn build",
+    "build": "preconstruct build",
+    "watch": "preconstruct watch"
+  },
+  "dependencies": {
+    "react": "^16.13.1"
+  },
+  "devDependencies": {
+    "@babel/preset-react": "^7.14.5",
+    "@preconstruct/cli": "^2.1.0"
+  }
+}
